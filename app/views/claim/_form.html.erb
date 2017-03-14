@@ -1,0 +1,7 @@
+<%= form_for [@company, @claim] do |f| %>
+	<%= f.label :claim %>
+	<%= f.text_area :claim %>
+
+	<%= f.submit "enviar" %>
+		
+<% end %>
